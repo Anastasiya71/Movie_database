@@ -1,0 +1,27 @@
+.Movies {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    justify-content: center;
+}
+
+.Movies__input {
+    width: 100%;
+}
+
+.movie {
+    background-color: #373b69;
+    margin: 1rem;
+    width: 300px;
+}
+
+.movie img {
+    max-width: 100%;
+}
+
+.movie-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+}
